@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent  },
   { path: 'estudiantes', loadChildren: () => import('./estudiantes/estudiantes.module').then(m => m.EstudiantesModule) },
   { path: 'lista-estudiantes', loadChildren: () => import('./lista-estudiantes/lista-estudiantes.module').then(m => m.ListaEstudiantesModule) },
-  { path: 'ver-estudiante/:id', loadChildren:() => import('./ver-estudiante/ver-estudiante.module').then(m => m.VerEstudianteModule) }
+  { path: 'ver-estudiante/:id', loadChildren:() => import('./ver-estudiante/ver-estudiante.module').then(m => m.VerEstudianteModule) },
+  { path: 'usuario', loadChildren:() => import('./usuario/usuario.module').then(m =>m.UsuarioModule)  }
 ];
 
 @NgModule({

@@ -11,6 +11,7 @@ import { EstudiantesComponent } from './estudiantes/estudiantes.component';
 import { ListaEstudiantesComponent } from './lista-estudiantes/lista-estudiantes.component';
 import { LoginComponent } from './login/login.component';
 import { VerEstudianteComponent } from './ver-estudiante/ver-estudiante.component';
+import { UsuarioComponent } from './usuario/usuario.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VerEstudianteComponent } from './ver-estudiante/ver-estudiante.componen
     EstudiantesComponent,
     ListaEstudiantesComponent,
     LoginComponent,
-    VerEstudianteComponent
+    VerEstudianteComponent,
+    UsuarioComponent
   ],
   imports: [
     BrowserModule,
